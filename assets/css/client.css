@@ -1,0 +1,126 @@
+
+ #flexiselDemo3 {
+    display:none;
+}
+.nbs-flexisel-container {
+	position: relative;
+	max-width: 100%;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    text-align:center;
+}
+.nbs-flexisel-inner {
+    overflow:hidden;
+    width:100%;
+}
+.nbs-flexisel-item {
+	float: left;
+	padding: 0px;
+	cursor: pointer;
+	position: relative;
+	line-height: 0px;
+	margin-top: 25px;
+}
+.nbs-flexisel-item img {
+	cursor: pointer;
+	position: relative;
+	width: 100%;
+}
+/*** Navigation ***/
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 32px;
+    height: 31px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    top: -31px !important;
+	opacity:0.5;
+}
+.nbs-flexisel-nav-left:hover,
+.nbs-flexisel-nav-right:hover {
+    cursor: pointer;
+    opacity:1;
+}
+.nbs-flexisel-nav-left {
+	left: 36%;
+	background: url(../images/left.png) no-repeat;
+}
+.nbs-flexisel-nav-right {
+    right: 35%;
+    background: url(../images/right.png) no-repeat;
+}
+/*----------*/
+.gallery_box{
+    background: #fff;
+    border: 1px solid #cec5b1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 5px;
+    height: auto;
+}
+.gallery_box:hover{
+    border: 1px solid #f00;
+    opacity: .8;
+}
+.gallery_box h4{
+    font-size: 20px;
+    line-height: 64px;
+    color: #505050;
+    font-family: 'Philosopher', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 1023px) {
+.nbs-flexisel-nav-left {
+	left: 35%;
+}
+.nbs-flexisel-nav-right {
+	right: 33%;
+}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .nbs-flexisel-nav-left{
+        left: 5px;
+    }
+    .nbs-flexisel-nav-right{
+        right: 5px;
+    }
+
+}
+
+ .recent_work_slider.project_gal{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     text-align: center;
+     width: 9999px;
+
+ }
+ .recent_work_slider .nbs-flexisel-item {
+     cursor: pointer;
+     float: left;
+     line-height: 0;
+     margin: 0;
+     padding: 0;
+     position: relative;
+ }
+ .recent_work_slider .nbs-flexisel-item img {
+     cursor: pointer;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     max-width: 269px;
+     position: relative;
+ }

@@ -1,0 +1,1 @@
+[26-Jul-2018 05:54:24 America/Chicago] PHP Fatal error:  Call to a member function select_all_school_brochure() on a non-object in /home/scsummerfield/public_html/demo/application/views/left_admission.php on line 22
